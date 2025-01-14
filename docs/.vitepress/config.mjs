@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 const base = "/blog/"
 export default defineConfig({
   base,
+  cleanUrls: true,
   title: "记如故的Blog",
   description: "记录前端学习笔记",
   themeConfig: {
